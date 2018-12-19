@@ -66,7 +66,7 @@ public class main {
         return mav;
     }
     /*json数据交互*/
-    @RequestMapping(value = "/json.action")
+    @RequestMapping(value = "/json.action",method = RequestMethod.POST)
     public @ResponseBody
     Admin json(@RequestBody Admin admin){
 
